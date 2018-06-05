@@ -4,12 +4,12 @@
   <br/><br/>
   <p><%= @place.description %></p>
 
-  <% if @place.lattitude.present? && @place.longitude.present? %>
+  <% if @place.latitude.present? && @place.longitude.present? %>
 
   <script>
 
     function initMap() {
-      var myLatLng = {lat: <% @place.lattitude %>, lng: <%= @place.longitude %>};
+      var myLatLng = {lat: <% @place.latitude %>, lng: <%= @place.longitude %>};
 
       var map = new google.maps.Map(document.getElementById('map'), {
         zoom: 12,
