@@ -6,4 +6,6 @@ class Place < ApplicationRecord
   validates :name, presence: true
   validates :address, presence: true
   validates :description, presence: true, length: {minimum: 3}
+
+  has_many :comments
 end
