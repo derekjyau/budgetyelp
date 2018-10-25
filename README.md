@@ -1,24 +1,6 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+BudgetYelp is a Yelp clone that integrates the Google Map API and includes features like user comments, star ratings, image uploading, and user authentication. 
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Link to BudgetYelp:
+https://budgetyelp-derek-yau.herokuapp.com/
